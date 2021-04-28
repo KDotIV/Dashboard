@@ -9,6 +9,16 @@ export class PieChartComponent implements OnInit {
 
   constructor() { }
 
+  pieChartData: number[] = [350, 450, 120];
+  pieChartLabels: string[] = ['XYZ logistics', 'Main St Bakery', 'Acme Hosting'];
+  colors: any[] = [
+    {
+      backgroundColor: ['#26547c', '#ff6b6b', '#ffd166']
+    }
+  ];
+
+  pieChartType = 'pie';
+  
   ngOnInit(): void {
   }
 

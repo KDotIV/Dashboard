@@ -42,11 +42,7 @@ a:hover {
     padding: 12px;
 }
 
-.card-body-theme {
-    background-color: #494F56;
-}
-
-.cards {
+.card {
     display: flex;
     flex-direction: column;
 }
